@@ -1,0 +1,37 @@
+body {
+  background-color: wheat;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  transition: all ease 0.5s;
+}
+
+.card:hover {
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+  color: tomato;
+  transform: translate(-1%, -1%);
+}
+
+button {
+  background-color: burlywood;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition: all ease 0.6s;
+}
+button:hover {
+  transform: translate(-1%);
+  box-shadow: 2px 1px 6px rgba(124, 108, 108, 0.5);
+}
+
+@media only screen and (max-width: 742px) {
+  .pagi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 10px;
+  }
+}
